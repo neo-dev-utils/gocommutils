@@ -1,0 +1,7 @@
+package strUtil
+
+// StrToBool string转bool
+func StrToBool(v string) int {
+	i := StrToUint64(v)
+	return i == 1
+}
