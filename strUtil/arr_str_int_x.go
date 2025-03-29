@@ -1,42 +1,42 @@
 package strUtil
 
-// ArrStrToUint []string转[]uint
-func ArrStrToUint(arrv []string) (r []uint) {
+// ArrStrToInt []string转[]int
+func ArrStrToInt(arrv []string) (r []int) {
 	for _, v := range arrv {
-		r = append(r, StrToUint(v))
+		r = append(r, StrToInt(v))
 	}
 	return
 }
 
-// ArrStrToUint8 []string转[]uint8
-func ArrStrToUint8(arrv []string) (r []uint8) {
+// ArrStrToInt8 []string转[]int8
+func ArrStrToInt8(arrv []string) (r []int8) {
 	for _, v := range arrv {
-		r = append(r, StrToUint8(v))
+		r = append(r, StrToInt8(v))
 	}
 	return
 }
 
-// ArrStrToUint16 []string转[]uint16
-func ArrStrToUint16(arrv []string) (r []uint16) {
+// ArrStrToInt16 []string转[]int16
+func ArrStrToInt16(arrv []string) (r []int16) {
 	for _, v := range arrv {
-		r = append(r, StrToUint16(v))
+		r = append(r, StrToInt16(v))
 	}
 	return
 }
 
-// ArrStrToUint32 []string转[]uint32
-func ArrStrToUint32(arrv []string) (r []uint32) {
+// ArrStrToInt32 []string转[]int32
+func ArrStrToInt32(arrv []string) (r []int32) {
 
 	for _, v := range arrv {
-		r = append(r, StrToUint32(v))
+		r = append(r, StrToInt32(v))
 	}
 	return
 }
 
-// ArrStrToUint64 []string转[]uint64
-func ArrStrToUint64(arrv []string) (r []uint64) {
+// ArrStrToInt64 []string转[]int64
+func ArrStrToInt64(arrv []string) (r []int64) {
 	for _, v := range arrv {
-		r = append(r, StrToUint64(v))
+		r = append(r, StrToInt64(v))
 	}
 	return
 }
