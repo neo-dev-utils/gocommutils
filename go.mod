@@ -5,6 +5,7 @@ go 1.24.1
 require (
 	github.com/dromara/carbon/v2 v2.6.1
 	github.com/stretchr/testify v1.10.0
+	golang.org/x/crypto v0.36.0
 )
 
 require (
